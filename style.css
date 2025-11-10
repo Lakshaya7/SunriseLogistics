@@ -29,7 +29,7 @@ header {
 
 /* Logo (Top Left) */
 .company-logo {
-  height: 50px;            /* Adjust this for perfect size */
+  height: 100px;            /* Adjust this for perfect size */
   width: auto;
   object-fit: contain;     /* Keeps proportions clean */
   display: block;
@@ -165,6 +165,7 @@ footer {
   margin-top: 40px;
   font-weight: 500;
 }
+
 
 
 

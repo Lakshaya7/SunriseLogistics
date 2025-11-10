@@ -187,10 +187,11 @@ body::after {
   height: 100%;
   background: url("watermark.png") center center no-repeat;
   background-size: 450px;     /* adjust size as needed */
-  opacity: 0.1;               /* increased visibility */
+  opacity: 0.0.8;               /* increased visibility */
   z-index: 0;
   pointer-events: none;
 }
+
 
 
 

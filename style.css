@@ -183,11 +183,12 @@ body::after {
   width: 100%;
   height: 100%;
   background: url("watermark.png") center center no-repeat;
-  background-size: 350px;      /* adjust watermark size */
-  opacity: 0.08;               /* transparency level (0 = invisible, 1 = solid) */
+  background-size: 500px;      /* adjust watermark size */
+  opacity: 0.50;               /* transparency level (0 = invisible, 1 = solid) */
   z-index: -1;                 /* keeps it behind all content */
   pointer-events: none;        /* makes it unclickable */
 }
+
 
 
 

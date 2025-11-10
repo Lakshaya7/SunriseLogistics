@@ -79,21 +79,6 @@ header {
   overflow: hidden;
 }
 
-.hero-slideshow::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("watermark.png") center center no-repeat;
-  background-size: 350px;
-  opacity: 0.25;
-  z-index: 1;
-  pointer-events: none;
-}
-
-
 .slide {
   display: none;
   position: absolute;
@@ -192,6 +177,7 @@ footer {
 /* ===== Watermark Background ===== */
 /* ===== Watermark Background (Visible Version) ===== */
 /* ===== Watermark Background ===== */
+/* ===== Watermark Background (Visible Version) ===== */
 body::after {
   content: "";
   position: fixed;
@@ -200,11 +186,13 @@ body::after {
   width: 100%;
   height: 100%;
   background: url("watermark.png") center center no-repeat;
-  background-size: 350px;      /* adjust watermark size */
-  opacity: 0.08;               /* transparency level (0 = invisible, 1 = solid) */
-  z-index: -1;                 /* keeps it behind all content */
-  pointer-events: none;        /* makes it unclickable */
+  background-size: 450px;     /* adjust size as needed */
+  opacity: 0.2;               /* increased visibility */
+  z-index: 0;
+  pointer-events: none;
 }
+
+
 
 
 

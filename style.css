@@ -29,18 +29,19 @@ header {
 
 /* Logo (Top Left) */
 .company-logo {
-  height: 100px;            /* Adjust this for perfect size */
+  height: 55px;           /* Sweet spot for logo size */
   width: auto;
-  object-fit: contain;     /* Keeps proportions clean */
+  object-fit: contain;
   display: block;
-  margin: 0;
+  margin: 5px 0;
   padding: 0;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
-  transition: transform 0.3s;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .company-logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
+  filter: drop-shadow(0 0 6px #ffb703);
 }
 
 
@@ -165,6 +166,7 @@ footer {
   margin-top: 40px;
   font-weight: 500;
 }
+
 
 
 

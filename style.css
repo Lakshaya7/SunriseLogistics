@@ -29,8 +29,12 @@ header {
 
 /* Logo (Top Left) */
 .company-logo {
-  height: 10px;        /* smaller size */
+  height: 35px;            /* Adjust this for perfect size */
   width: auto;
+  object-fit: contain;     /* Keeps proportions clean */
+  display: block;
+  margin: 0;
+  padding: 0;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
   transition: transform 0.3s;
 }
@@ -38,6 +42,7 @@ header {
 .company-logo:hover {
   transform: scale(1.1);
 }
+
 
 /* Navigation Links */
 .nav-links {
@@ -160,6 +165,7 @@ footer {
   margin-top: 40px;
   font-weight: 500;
 }
+
 
 
 

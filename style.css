@@ -48,6 +48,7 @@ header {
 
 
 /* Navigation Links */
+/* Navigation Links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -55,16 +56,21 @@ header {
 }
 
 .nav-links a {
-  color: #e0e1dd;
+  color: #fefefe;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s, border-bottom 0.3s;
+  font-weight: 700;                 /* BOLDER TEXT */
+  font-size: 1.05rem;               /* Slightly larger */
+  letter-spacing: 0.5px;            /* Cleaner spacing */
+  text-transform: uppercase;        /* Makes it strong */
+  transition: color 0.3s, border-bottom 0.3s, transform 0.3s;
 }
 
 .nav-links a:hover {
   color: #ffb703;
-  border-bottom: 2px solid #ffb703;
+  border-bottom: 3px solid #ffb703; /* Thicker underline */
+  transform: translateY(-2px);      /* Slight lift on hover */
 }
+
 
 /* Hero Slideshow */
 .hero-slideshow {
@@ -168,6 +174,7 @@ footer {
   margin-top: 40px;
   font-weight: 500;
 }
+
 
 
 

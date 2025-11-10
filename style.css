@@ -29,7 +29,7 @@ header {
 
 /* Logo (Top Left) */
 .company-logo {
-  height: 45px;        /* smaller size */
+  height: 10px;        /* smaller size */
   width: auto;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
   transition: transform 0.3s;
@@ -160,4 +160,5 @@ footer {
   margin-top: 40px;
   font-weight: 500;
 }
+
 
